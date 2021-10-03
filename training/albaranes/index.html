@@ -67,7 +67,24 @@
           <div class="card">
             <div class="card-block">    
               <p>Crear albarán</p>
-              <p>En este vídeo creamos un albarán desde cero. Introducimos los campos Proveedor, número automático generador, identificador proporcionado manualmente, productos: referencia, categoría (decidimos no rellenar esto), marca (Marcas/X) temporada/campaña (Temporadas/X), ponemos los stocks de cada talla, guardamos, imprimimos el albarán y las etiquetas</p>
+              <p>En este vídeo creamos un albarán desde cero. Introducimos los campos siguientes...</p>
+              <p>- Proveedor</p>
+              <p>- número generado automáticamente (automáticamente por el programa)</p>
+              <p>- identificador proporcionado manualmente</p>
+              <p>... y de cada producto ...</p>
+              <p>- referencia (la ponemos como la primera palabra del nombre)</p>
+              <p>- nombre (en el mismo campo del nombre, a continuación de la referencia, poniendo un espacio)</p>
+              <p>- precio (solo ponemos precio de venta al público PVP, y el programa nos calcula el IVA automáticamente dentro de este PVP)</p>
+              <p>- categoría (decidimos no rellenar esto, no servía para nada)</p>
+              <p>- marca (Marcas/X, es decir, tenemos que crear una "categoría" dentro de la categoría padre "Marcas", esto es porque el programa para imprimir la etiqueta busca la categoría que tiene como padre "Marcas")</p>
+              <p>- temporada/campaña (Temporadas/X, es decir, tenemos que crear una "categoría" dentro de la categoría padre "Temporadas", esto es porque el programa para imprimir la etiqueta busca la categoría que tiene como padre "Temporadas")</p>
+              <p>... ponemos los stocks de cada talla ...</p>
+              <p>... guardamos ...</p>
+              <p>... imprimimos el albarán ...</p>
+              <p>... y las etiquetas ...</p>
+              <p>¡¡¡IMPORTANTE!!! <b>Siempre tenemos que poner como mínimo 2 variantes (por ejemplo, 2 colores y 2 tallas) aunque no tengan stock porque esto es necesario para que aparezca el nombre de las variantes tanto en el Punto de Venta como en el ticket y las etiquetas.</b></p>
+              <p>¡¡¡IMPORTANTE!!! <b>Este programa no detecta si una referencia ya existe o no, porque la ponemos en el nombre tal cual, por eso idealmente deberíamos antes de introducirlo buscar si ya existe.</b></p>
+              <p>¡¡¡IMPORTANTE!!! <b>Solo hay 1 almacén. De momento, no hay múltiples almacenes. Esto es porque existe un programa para cada tienda, cuando te conectas, te conectas solo al de la tienda en concreto, por ejemplo: elvendrell.wisconsinjeans.com o torredembarra.wisconsinjeans.com</b></p>
               <p><iframe width="560" height="315" src="https://www.youtube.com/embed/86W9pAG50hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
             </div>
           </div>
